@@ -1,0 +1,31 @@
+/* Flex container styles */
+.container {
+  display: flex;
+  height: 100vh;
+  flex-flow: row wrap;
+
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: space-evenly;
+
+  padding: 20px;
+  gap: 20px;
+  background: #f0f0f0;
+}
+
+/* Flex item styles */
+.item {
+  background-color: #4a90e2;
+  color: #fff;
+  padding: 30px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1 1 200px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
